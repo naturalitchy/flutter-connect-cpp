@@ -1,0 +1,11 @@
+ninja: Entering directory `D:\android-studio\penteract\connect_flutter_cpp\android\app\.cxx\Debug\2j1k474e\arm64-v8a'
+[1/2] Building CXX object CMakeFiles/native_add.dir/D_/android-studio/penteract/connect_flutter_cpp/ios/native_aadd.cpp.o
+FAILED: CMakeFiles/native_add.dir/D_/android-studio/penteract/connect_flutter_cpp/ios/native_aadd.cpp.o 
+C:\Users\nsubw\AppData\Local\Android\Sdk\ndk\23.1.7779620\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/nsubw/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/nsubw/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_add_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/native_add.dir/D_/android-studio/penteract/connect_flutter_cpp/ios/native_aadd.cpp.o -MF CMakeFiles\native_add.dir\D_\android-studio\penteract\connect_flutter_cpp\ios\native_aadd.cpp.o.d -o CMakeFiles/native_add.dir/D_/android-studio/penteract/connect_flutter_cpp/ios/native_aadd.cpp.o -c D:/android-studio/penteract/connect_flutter_cpp/ios/native_aadd.cpp
+In file included from D:/android-studio/penteract/connect_flutter_cpp/ios/native_aadd.cpp:6:
+D:/android-studio/penteract/connect_flutter_cpp/ios/exam1.cpp:10:2: error: expected ';' after class
+}
+ ^
+ ;
+1 error generated.
+ninja: build stopped: subcommand failed.

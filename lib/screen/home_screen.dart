@@ -1,4 +1,5 @@
 
+import 'package:connect_flutter_cpp/native_add.dart';
 import 'package:connect_flutter_cpp/screen/get_data.dart';
 import 'package:flutter/material.dart';
 
@@ -11,18 +12,22 @@ class HomeScreen extends StatelessWidget {
       body: Container(
         padding: EdgeInsets.all(50.0),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            ElevatedButton(
-              onPressed: () {
-                Navigator.of(context).push(
-                  MaterialPageRoute(
-                    builder: (_) => GetData(),
-                  ),
-                );
-              },
-              child: Text('Connect C++'),
+            SizedBox(
+              height: 100.0,
+              width: 250.0,
+              child: ElevatedButton(
+                onPressed: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => GetData(),
+                    ),
+                  );
+                },
+                child: Text('1 + 2 == ${nativeAdd(1, 2)}'),
+              ),
             ),
           ],
         ),
